@@ -1,0 +1,110 @@
+.text-box h3:first-child {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+p:nth-child(1) {
+    color: red;
+}
+
+p:not(:nth-child(1), :nth-child(2), .yellow) {
+    color: green;
+}
+
+p.yellow {
+    color: yellow;
+}
+
+.lessons>tr:hover {
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.schedule tr,
+.lessons td {
+    border: 7px solid #1aa9bc;
+    padding: 9px;
+}
+
+.schedule {
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lesson1 a {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+tr>.lesson1 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.lesson2 a {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+tr>.lesson2 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.lesson3 a {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+tr>.lesson3 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.lesson4 a {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+tr>.lesson4 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.lesson5 a {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+tr>.lesson5 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.lesson1:hover {
+    background-color: greenyellow;
+}
+
+.lesson2:hover {
+    background-color: green;
+}
+
+.lesson3:hover {
+    background-color: goldenrod;
+}
+
+.lesson4:hover {
+    background-color: gold;
+}
+
+.lesson5:hover {
+    background-color: gray;
+}
